@@ -1,0 +1,398 @@
+{
+  "continent": "Europe",
+  "capitale_responses": [
+    "Tirana",
+    "Andorre La Vella",
+    "Erevan",
+    "Vienne",
+    "Bakou",
+    "Ponta Delgada",
+    "Bruxelles",
+    "Sarajevo",
+    "Sofia",
+    "Zagreb",
+    "Nicosie",
+    "Prague",
+    "Copenhage",
+    "Tallinn",
+    "Helsinki",
+    "Skopje",
+    "Paris",
+    "Bonn-Berlin",
+    "Gibraltar",
+    "Athènes",
+    "Nuuk",
+    "Budapest",
+    "Reykjavik",
+    "Dublin",
+    "Rome",
+    "Riga",
+    "Vaduz",
+    "Vilnius",
+    "Luxembourg",
+    "La Vallette",
+    "Chisinau",
+    "Monaco",
+    "Amsterdam",
+    "Oslo",
+    "Lisbonne",
+    "Bucarest",
+    "Saint-Marin",
+    "Bratislava",
+    "Ljubljana",
+    "Madrid",
+    "Stockholm",
+    "Berne",
+    "Ankara",
+    "Kiev",
+    "Londres",
+    "Vatican",
+    "Belgrade",
+    "Varsovie",
+    "Minsk"
+  ],
+  "list": [
+    {
+      "country": "Albanie",
+      "capitale_city": "Tirana",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Andorre",
+      "capitale_city": "Andorre La Vella",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Arménie",
+      "capitale_city": "Erevan",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Autriche",
+      "capitale_city": "Vienne",
+      "capitale_trap": [
+        "Salzbourg"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Azerbaïdjan",
+      "capitale_city": "Bakou",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Iles des Açores",
+      "capitale_city": "Ponta Delgada",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Belgique",
+      "capitale_city": "Bruxelles",
+      "capitale_trap": [
+        "Liège"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Bosnie-Herzégovine",
+      "capitale_city": "Sarajevo",
+      "capitale_trap": [
+        "Zagreb"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Bulgarie",
+      "capitale_city": "Sofia",
+      "capitale_trap": [
+        "Belgrade"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Croatie",
+      "capitale_city": "Zagreb",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Chypre",
+      "capitale_city": "Nicosie",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "République Tchèque",
+      "capitale_city": "Prague",
+      "capitale_trap": [
+        "Sofia"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Danemark",
+      "capitale_city": "Copenhage",
+      "capitale_trap": [
+        "Helsinki"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Estonie",
+      "capitale_city": "Tallinn",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Finlande",
+      "capitale_city": "Helsinki",
+      "capitale_trap": [
+        "Copenhage"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Macédoine",
+      "capitale_city": "Skopje",
+      "capitale_trap": [
+        "Sofia"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "France",
+      "capitale_city": "Paris",
+      "capitale_trap": [
+        "Marseille"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Allemagne",
+      "capitale_city": "Berlin",
+      "capitale_trap": [
+        "Munich"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Gibraltar",
+      "capitale_city": "Gibraltar",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Grèce",
+      "capitale_city": "Athènes",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Groenland",
+      "capitale_city": "Nuuk",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Hongrie",
+      "capitale_city": "Budapest",
+      "capitale_trap": [
+        "Bucarest"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Islande",
+      "capitale_city": "Reykjavik",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Irlande",
+      "capitale_city": "Dublin",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Italie",
+      "capitale_city": "Rome",
+      "capitale_trap": [
+        "Cologne",
+        "Milan"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Lettonie",
+      "capitale_city": "Riga",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Liechtenstein",
+      "capitale_city": "Vaduz",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Lituanie",
+      "capitale_city": "Vaduz",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Lituanie",
+      "capitale_city": "Vilnius",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Luxembourg",
+      "capitale_city": "Luxembourg",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Malte",
+      "capitale_city": "La Vallette",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Moldavie",
+      "capitale_city": "Chisinau",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Monaco",
+      "capitale_city": "Monaco",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Pays-Bas",
+      "capitale_city": "Amsterdam",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Norvège",
+      "capitale_city": "Oslo",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Portugal",
+      "capitale_city": "Lisbonne",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Roumanie",
+      "capitale_city": "Bucarest",
+      "capitale_trap": [
+        "Budapest"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Saint-Marin",
+      "capitale_city": "Saint-Marin",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Slovaquie",
+      "capitale_city": "Bratislava",
+      "capitale_trap": [
+        "Ljubljana"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Slovénie",
+      "capitale_city": "Ljubljana",
+      "capitale_trap": [
+        "Bratislava"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Espagne",
+      "capitale_city": "Madrid",
+      "capitale_trap": [
+        "Barcelone"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Suède",
+      "capitale_city": "Stockholm",
+      "capitale_trap": [
+        "Helsinki",
+        "Olso"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Suisse",
+      "capitale_city": "Berne",
+      "capitale_trap": [
+        "Genève"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Turquie",
+      "capitale_city": "Ankara",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Ukraine",
+      "capitale_city": "Kiev",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Royaume-Uni",
+      "capitale_city": "Londres",
+      "capitale_trap": [
+        "Manchester"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Vatican",
+      "capitale_city": "Vatican",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Serbie",
+      "capitale_city": "Belgrade",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Pologne",
+      "capitale_city": "Varsovie",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Biélorussie",
+      "capitale_city": "Minsk",
+      "capitale_trap": [
+        "Moscou"
+      ],
+      "country_trap": []
+    }
+  ]
+}

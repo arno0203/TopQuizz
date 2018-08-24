@@ -1,0 +1,33 @@
+{
+  "continent": "Europe",
+  "responses": [
+    "Tirana",
+    "Andorre La Vella",
+    "Erevan",
+    "Vienne"
+  ],
+  "list": [
+    {
+      "country": "Albanie",
+      "capitale_city": "Tirana",
+      "trap": []
+    },
+    {
+      "country": "Andorre",
+      "capitale_city": "Andorre La Vella",
+      "trap": []
+    },
+    {
+      "country": "Arménie",
+      "capitale_city": "Erevan",
+      "trap": []
+    },
+    {
+      "country": "Autriche",
+      "capitale_city": "Vienne",
+      "trap": [
+        "Salzbourg"
+      ]
+    }
+  ]
+}
