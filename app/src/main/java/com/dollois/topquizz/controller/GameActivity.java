@@ -29,6 +29,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     private Button mAnswer4Button;
     private QuestionBank mlistQuestion;
     private int mLevel;
+    private int mFind;
 
     private int mGoodAnswer = 0;
     private int mBadAnswer = 0;
@@ -42,15 +43,16 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
         Intent intent = getIntent();
         mLevel = intent.getIntExtra("level", 5);
+        mFind = intent.getIntExtra("find", 1);
 
-        mQuestionText = (TextView) findViewById(R.id.activity_game_question_text);
-        mAnswer1Button = (Button) findViewById(R.id.activity_game_answer1_btn);
-        mAnswer2Button = (Button) findViewById(R.id.activity_game_answer2_btn);
-        mAnswer3Button = (Button) findViewById(R.id.activity_game_answer3_btn);
-        mAnswer4Button = (Button) findViewById(R.id.activity_game_answer4_btn);
+        mQuestionText   = (TextView) findViewById(R.id.activity_game_question_text);
+        mAnswer1Button  = (Button) findViewById(R.id.activity_game_answer1_btn);
+        mAnswer2Button  = (Button) findViewById(R.id.activity_game_answer2_btn);
+        mAnswer3Button  = (Button) findViewById(R.id.activity_game_answer3_btn);
+        mAnswer4Button  = (Button) findViewById(R.id.activity_game_answer4_btn);
 
         mGoodAnswerText = (TextView) findViewById(R.id.activity_game_good_answer_text);
-        mBadAnswerText = (TextView) findViewById(R.id.activity_game_bad_answer_text);
+        mBadAnswerText  = (TextView) findViewById(R.id.activity_game_bad_answer_text);
         String mLevelTxt = " joker";
         if( mLevel > 1)
             mLevelTxt += "s";
@@ -65,7 +67,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
 
         try{
-            mlistQuestion = new QuestionBank( this.getAssets().open("liste.json"));
+            mlistQuestion = new QuestionBank( this.getAssets().open("liste.json"), mFind);
             this.displayQuestion(mlistQuestion, mGoodAnswer+mBadAnswer);
 
         }catch (IOException ex) {

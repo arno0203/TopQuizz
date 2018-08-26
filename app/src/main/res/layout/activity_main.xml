@@ -85,12 +85,12 @@
             android:layout_weight="1"
             android:text="Pays" />
 
-        <RadioButton
-            android:id="@+id/activity_main_mix_find_radio_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Capitales et Pays" />
+        <!--<RadioButton-->
+            <!--android:id="@+id/activity_main_mix_find_radio_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Capitales et Pays" />-->
     </RadioGroup>
 
     <Button

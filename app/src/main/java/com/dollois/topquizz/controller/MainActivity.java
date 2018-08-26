@@ -107,10 +107,10 @@ public class MainActivity extends AppCompatActivity {
         int selectedId = mFindGroup.getCheckedRadioButtonId();
         mFindRadioButton = (RadioButton) findViewById(selectedId);
 
-        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_CAPITALE_FIND) )
+        if(mFindRadioButton.getText().toString().equalsIgnoreCase(this.TXT_CAPITALE_FIND) )
             return this.FIND_CAPITAL;
 
-        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_COUNTRY_FIND) )
+        if(mFindRadioButton.getText().toString().equalsIgnoreCase(this.TXT_COUNTRY_FIND) )
             return this.FIND_COUNTRY;
 
         return this.FIND_MIX;

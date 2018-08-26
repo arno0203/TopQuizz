@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -20,20 +22,37 @@ public class QuestionBank {
     private Question[] mQuestionList;
     private String[] mListAllReponse;
 
-    public QuestionBank(InputStream inputStreamJson) {
-        JSONObject obj = this.buildJsonObject(inputStreamJson);
-        try {
-            JSONArray m_jCapitales = obj.getJSONArray("list");
+    final int FIND_CAPITAL   = 1;
+    final int FIND_COUNTRY   = 2;
+    final int FIND_MIX       = 3;
 
-            mListAllReponse = Tools.jsonArrayToStringArray(obj.getJSONArray("capitale_responses"));
+    public QuestionBank(InputStream inputStreamJson, int lookingFor) {
+        JSONObject obj = this.buildJsonObject(inputStreamJson);
+        Map<String, String> setting = new HashMap<>();
+        try {
+            if(lookingFor == this.FIND_CAPITAL){
+                setting.put("typeList", "capitale_responses");
+                setting.put("question", "country");
+                setting.put("answer", "capitale_city");
+                setting.put("trap", "capitale_trap");
+            }else if(lookingFor == this.FIND_COUNTRY){
+                setting.put("typeList", "country_responses");
+                setting.put("question", "capitale_city");
+                setting.put("answer", "country");
+                setting.put("trap", "country_trap");
+            }
+
+            JSONArray m_jQuestion = obj.getJSONArray("list");
+            mListAllReponse = Tools.jsonArrayToStringArray(obj.getJSONArray(setting.get("typeList")));
 
 //            System.out.println("Nbr de réponses totales");
-            int nbrCapital = m_jCapitales.length();
-            Question[] listQuestionTemp = new Question[nbrCapital];
+            int nbrQuestion = m_jQuestion.length();
+            Question[] listQuestionTemp = new Question[nbrQuestion];
 
-            for (int i=0; i < nbrCapital; i++) {
+            for (int i=0; i < nbrQuestion; i++) {
                 Question currentQuestion = new Question();
-                currentQuestion.loadFromJson(m_jCapitales.getJSONObject(i), mListAllReponse);
+                currentQuestion.loadFromJson(m_jQuestion.getJSONObject(i), mListAllReponse, setting
+                );
 
                 listQuestionTemp[i] = currentQuestion;
             }

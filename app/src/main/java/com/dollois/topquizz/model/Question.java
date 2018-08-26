@@ -5,6 +5,7 @@ import org.json.JSONObject;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Map;
 
 
 /**
@@ -80,15 +81,15 @@ public class Question {
      * @param allResponses
      * @return
      */
-    public void loadFromJson(JSONObject jsonQuestion, String[] allResponses){
+    public void loadFromJson(JSONObject jsonQuestion, String[] allResponses, Map setting){
         try{
-            this.setQuestion(mQuestion + jsonQuestion.getString("country"));
-            this.setAnswer(jsonQuestion.getString("capitale_city"));
+            this.setQuestion(mQuestion + jsonQuestion.getString(setting.get("question").toString()));
+            this.setAnswer(jsonQuestion.getString(setting.get("answer").toString()));
             String[] tempResponseList = new String[this.nbrChoice];
 
-            int nbrTrap =  Tools.jsonArrayToStringArray( jsonQuestion.getJSONArray("capitale_trap")).length;
+            int nbrTrap =  Tools.jsonArrayToStringArray( jsonQuestion.getJSONArray(setting.get("trap").toString())).length;
             tempResponseList[0] = this.getAnswer();
-            tempResponseList = Tools.mergeArrayString(tempResponseList, Tools.jsonArrayToStringArray( jsonQuestion.getJSONArray("capitale_trap") ) );
+            tempResponseList = Tools.mergeArrayString(tempResponseList, Tools.jsonArrayToStringArray( jsonQuestion.getJSONArray(setting.get("trap").toString()) ) );
 
             for(int i= nbrTrap+1; i < this.nbrChoice; i++){
                 tempResponseList[i] = this.getRandomAnswer(tempResponseList, allResponses);
