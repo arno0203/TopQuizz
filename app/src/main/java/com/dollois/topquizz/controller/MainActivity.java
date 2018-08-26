@@ -22,16 +22,26 @@ public class MainActivity extends AppCompatActivity {
     private EditText mPseudoInput;
     private Button mPlayButton;
     private RadioGroup mLevelGroup;
+    private RadioGroup mFindGroup;
     private RadioButton mLevelRadioButton;
+    private RadioButton mFindRadioButton;
     private User mUser;
 
     final String TXT_EASY_LEVEL     = "Facile";
     final String TXT_MEDIUM_LEVEL   = "Moyen";
     final String TXT_HIGHT_LEVEL    = "Expert";
 
+    final String TXT_CAPITALE_FIND  = "Capitales";
+    final String TXT_COUNTRY_FIND   = "Pays";
+    final String TXT_MIX_FIND       = "Capitales et Pays";
+
     final int EASY_LEVEL     = 5;
     final int MEDIUM_LEVEL   = 3;
     final int HIGHT_LEVEL    = 1;
+
+    final int FIND_CAPITAL   = 1;
+    final int FIND_COUNTRY   = 2;
+    final int FIND_MIX       = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         mPseudoInput = (EditText) findViewById(R.id.activity_main_pseudo_input);
         mPlayButton = (Button) findViewById(R.id.activity_main_play_btn);
         mLevelGroup = (RadioGroup) findViewById(R.id.activity_main_level_radio_group);
+        mFindGroup = (RadioGroup) findViewById(R.id.activity_main_find_radio_group);
 
         mPlayButton.setEnabled(false);
 
@@ -68,9 +79,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mUser = new User(mPseudoInput.getText().toString());
                 int level = setLevelGame();
+                int find = setWhatFind();
+
                 Intent gameActivity = new Intent(MainActivity.this, GameActivity.class);
                 gameActivity.putExtra("user", mUser);
                 gameActivity.putExtra("level", level);
+                gameActivity.putExtra("find", find);
                 startActivity(gameActivity);
             }
         });
@@ -80,8 +94,6 @@ public class MainActivity extends AppCompatActivity {
         int selectedId = mLevelGroup.getCheckedRadioButtonId();
         mLevelRadioButton = (RadioButton) findViewById(selectedId);
 
-//        if(mLevelRadioButton.getText() == this.TXT_EASY_LEVEL)
-
         if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_MEDIUM_LEVEL) )
             return this.MEDIUM_LEVEL;
 
@@ -89,5 +101,18 @@ public class MainActivity extends AppCompatActivity {
             return this.HIGHT_LEVEL;
 
         return this.EASY_LEVEL;
+    }
+
+    public int setWhatFind(){
+        int selectedId = mFindGroup.getCheckedRadioButtonId();
+        mFindRadioButton = (RadioButton) findViewById(selectedId);
+
+        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_CAPITALE_FIND) )
+            return this.FIND_CAPITAL;
+
+        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_COUNTRY_FIND) )
+            return this.FIND_COUNTRY;
+
+        return this.FIND_MIX;
     }
 }

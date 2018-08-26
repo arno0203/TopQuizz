@@ -51,24 +51,81 @@
     "Varsovie",
     "Minsk"
   ],
-  "list": [
+  "country_responses": [
+    "Albanie",
+    "Andorre",
+    "Arménie",
+    "Autriche",
+    "Azerbaïdjan",
+    "Iles des Açores",
+    "Belgique",
+    "Bosnie-Herzégovine",
+    "Bulgarie",
+    "Croatie",
+    "Chypre",
+    "République Tchèque",
+    "Danemark",
+    "Estonie",
+    "Finlande",
+    "Macédoine",
+    "France",
+    "Allemagne",
+    "Gibraltar",
+    "Grèce",
+    "Groenland",
+    "Hongrie",
+    "Islande",
+    "Irlande",
+    "Italie",
+    "Lettonie",
+    "Liechtenstein",
+    "Lituanie",
+    "Luxembourg",
+    "Malte",
+    "Moldavie",
+    "Monaco",
+    "Pays-Bas",
+    "Norvège",
+    "Portugal",
+    "Roumanie",
+    "Saint-Marin",
+    "Slovaquie",
+    "Slovénie",
+    "Espagne",
+    "Suède",
+    "Suisse",
+    "Turquie",
+    "Ukraine",
+    "Royaume-Uni",
+    "Vatican",
+    "Serbie",
+    "Pologne",
+    "Biélorussie"
+  ],
+  "capitale_list": [
     {
       "country": "Albanie",
       "capitale_city": "Tirana",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Arménie"
+      ]
     },
     {
       "country": "Andorre",
       "capitale_city": "Andorre La Vella",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Portugal"
+      ]
     },
     {
       "country": "Arménie",
       "capitale_city": "Erevan",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Macédoine"
+      ]
     },
     {
       "country": "Autriche",
@@ -76,13 +133,17 @@
       "capitale_trap": [
         "Salzbourg"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Suisse"
+      ]
     },
     {
       "country": "Azerbaïdjan",
       "capitale_city": "Bakou",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Moldavie"
+      ]
     },
     {
       "country": "Iles des Açores",
@@ -104,7 +165,9 @@
       "capitale_trap": [
         "Zagreb"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Croatie"
+      ]
     },
     {
       "country": "Bulgarie",
@@ -112,19 +175,25 @@
       "capitale_trap": [
         "Belgrade"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Hongrie"
+      ]
     },
     {
       "country": "Croatie",
       "capitale_city": "Zagreb",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Bosnie-Herzégovine"
+      ]
     },
     {
       "country": "Chypre",
       "capitale_city": "Nicosie",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Grêce"
+      ]
     },
     {
       "country": "République Tchèque",
@@ -140,13 +209,17 @@
       "capitale_trap": [
         "Helsinki"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Suède"
+      ]
     },
     {
       "country": "Estonie",
       "capitale_city": "Tallinn",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Hongrie"
+      ]
     },
     {
       "country": "Finlande",
@@ -154,7 +227,9 @@
       "capitale_trap": [
         "Copenhage"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Lettonie"
+      ]
     },
     {
       "country": "Macédoine",
@@ -196,7 +271,9 @@
       "country": "Groenland",
       "capitale_city": "Nuuk",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Islande"
+      ]
     },
     {
       "country": "Hongrie",
@@ -204,13 +281,17 @@
       "capitale_trap": [
         "Bucarest"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Roumanie"
+      ]
     },
     {
       "country": "Islande",
       "capitale_city": "Reykjavik",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Groeland"
+      ]
     },
     {
       "country": "Irlande",
@@ -346,7 +427,9 @@
       "capitale_trap": [
         "Genève"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Allemagne"
+      ]
     },
     {
       "country": "Turquie",
@@ -372,7 +455,9 @@
       "country": "Vatican",
       "capitale_city": "Vatican",
       "capitale_trap": [],
-      "country_trap": []
+      "country_trap": [
+        "Italie"
+      ]
     },
     {
       "country": "Serbie",
@@ -392,7 +477,9 @@
       "capitale_trap": [
         "Moscou"
       ],
-      "country_trap": []
+      "country_trap": [
+        "Russie"
+      ]
     }
   ]
 }
