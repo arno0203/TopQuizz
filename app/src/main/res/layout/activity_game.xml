@@ -19,8 +19,9 @@
         android:gravity="center"
         android:text="Question?"
         android:textColor="@color/colorPrimary"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:textColor="@color/colorPrimaryDark" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +41,7 @@
             android:text="0 Bonne réponse"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="normal|bold" />
 
         <TextView
             android:id="@+id/activity_game_bad_answer_text"
@@ -54,7 +55,7 @@
             android:gravity="center"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="normal|bold" />
 
     </LinearLayout>
 
