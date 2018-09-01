@@ -142,7 +142,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             mGoodAnswerText.setText(GoodText);
         } else {
             mBadAnswer++;
-            if (mBadAnswer == 3) {
+            if (mBadAnswer == mLevel - 1) {
                 BadText = "1 joker";
             } else {
                 BadText = mLevel - mBadAnswer + " jokers";
