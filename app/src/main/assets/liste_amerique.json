@@ -1,0 +1,289 @@
+{
+  "continent": "Amérique du Nord",
+  "capitale_responses": [
+    "The Valley",
+    "Saint-Jean",
+    "Oranjestad",
+    "Nassau",
+    "Bridgetown",
+    "Belmopan",
+    "Hamilton",
+    "Road Town",
+    "Ottawa",
+    "Georgetown",
+    "San José",
+    "La Havane",
+    "Roseau",
+    "Saint-Domingue",
+    "San Salvador",
+    "Saint-George",
+    "Basse-Terre",
+    "Guatémala",
+    "Port-au-Prince",
+    "Tegucigalpa",
+    "Kingston",
+    "Fort-de-France",
+    "Mexico",
+    "Managua",
+    "Panama",
+    "San Juan",
+    "Castries",
+    "Basse Terre",
+    "Kingstown",
+    "Port d'Espagne",
+    "Grand Turk",
+    "Charlotte Amalie",
+    "Washington"
+  ],
+  "country_responses": [
+    "Anguilla",
+    "Antigua et Barbuda",
+    "Aruba",
+    "Bahamas",
+    "Barbade",
+    "Bélize",
+    "Iles Bermudes",
+    "Iles Vierges Britanniques",
+    "Canada",
+    "Iles Cayman",
+    "Costa Rica",
+    "Cuba",
+    "Dominique",
+    "République Dominicaine",
+    "El Salvador",
+    "Grenade",
+    "Guadeloupe",
+    "Guatémala",
+    "Haïti",
+    "Honduras",
+    "Jamaïque",
+    "Martinique",
+    "Mexique",
+    "Nicaragua",
+    "Panama",
+    "Porto Rico",
+    "Sainte-Lucie",
+    "Saint Kitts et Nevis",
+    "Saint-Vincent",
+    "Trinidad et Tobago",
+    "Turks et Caicos",
+    "Iles Vierges Américaines",
+    "Etats-Unis"
+  ],
+  "list": [
+    {
+      "country": "Anguilla",
+      "capitale_city": "The Valley",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Antigua et Barbuda",
+      "capitale_city": "Saint-Jean",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Aruba",
+      "capitale_city": "Oranjestad",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Bahamas",
+      "capitale_city": "Nassau",
+      "capitale_trap": [],
+      "country_trap": [
+        "Barbade"
+      ]
+    },
+    {
+      "country": "Barbade",
+      "capitale_city": "Bridgetown",
+      "capitale_trap": [
+        "Georgetown"
+      ],
+      "country_trap": [
+        "Bahamas"
+      ]
+    },
+    {
+      "country": "Iles Bermudes",
+      "capitale_city": "Hamilton",
+      "capitale_trap": [
+        "Road Town"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Iles Vierges Britanniques",
+      "capitale_city": "Road Town",
+      "capitale_trap": [
+        "Hamilton"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Canada",
+      "capitale_city": "Ottawa",
+      "capitale_trap": [
+        "Quebec"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Iles Cayman",
+      "capitale_city": "Georgetown",
+      "capitale_trap": [
+        "Bridgetown"
+      ],
+      "country_trap": [
+        "Iles Bermudes"
+      ]
+    },
+    {
+      "country": "Costa Rica",
+      "capitale_city": "San José",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Cuba",
+      "capitale_city": "La Havane",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Dominique",
+      "capitale_city": "Roseau",
+      "capitale_trap": [
+        "Saint-Domingue"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "République Dominicaine",
+      "capitale_city": "Saint-Domingue",
+      "capitale_trap": [
+        "La Havane"
+      ],
+      "country_trap": [
+        "Dominique"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "capitale_city": "San Salvador",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Grenade",
+      "capitale_city": "Saint-George",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Guadeloupe",
+      "capitale_city": "Basse-Terre",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Guatémala",
+      "capitale_city": "Guatémala",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Haïti",
+      "capitale_city": "Port-au-Prince",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Honduras",
+      "capitale_city": "Tegucigalpa",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Jamaïque",
+      "capitale_city": "Kingston",
+      "capitale_trap": [
+        "Hamilton"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Martinique",
+      "capitale_city": "Fort-de-France",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Mexique",
+      "capitale_city": "Mexico",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Nicaragua",
+      "capitale_city": "Managua",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Panama",
+      "capitale_city": "Panama",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Sainte-Lucie",
+      "capitale_city": "Castries",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Saint Kitts et Nevis",
+      "capitale_city": "Basse Terre",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Saint-Vincent",
+      "capitale_city": "Kingstown",
+      "capitale_trap": [
+        "Kingston"
+      ],
+      "country_trap": []
+    },
+    {
+      "country": "Trinidad et Tobago",
+      "capitale_city": "Port d'Espagne",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Turks et Caicos",
+      "capitale_city": "Grand Turk",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Iles Vierges Américaines",
+      "capitale_city": "Charlotte Amalie",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Etats-Unis",
+      "capitale_city": "La Washington",
+      "capitale_trap": [
+        "New York"
+      ],
+      "country_trap": []
+    }
+  ]
+}

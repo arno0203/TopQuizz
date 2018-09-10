@@ -1,0 +1,125 @@
+{
+  "continent": "Amérique du Sud",
+  "capitale_responses": [
+    "Buenos Aires",
+    "La Paz",
+    "Brasilia",
+    "Santiago",
+    "Bogota",
+    "Quito",
+    "Stanley",
+    "Cayenne",
+    "Georgetown",
+    "Asuncion",
+    "Lima",
+    "Paramaribo",
+    "Montevideo",
+    "Caracas"
+  ],
+  "country_responses": [
+    "Argentine",
+    "Bolivie",
+    "Brésil",
+    "Chili",
+    "Colombie",
+    "Equateur",
+    "Iles Falkland",
+    "Guyane Française",
+    "Guyana",
+    "Paraguay",
+    "Pérou",
+    "Surinam",
+    "Uruguay",
+    "Vénézuela"
+  ],
+  "list": [
+    {
+      "country": "Argentine",
+      "capitale_city": "Buenos Aires",
+      "capitale_trap": [],
+      "country_trap": [
+        "Bogota"
+      ]
+    },
+    {
+      "country": "Bolivie",
+      "capitale_city": "La Paz",
+      "capitale_trap": [],
+      "country_trap": [
+        "Colombie"
+      ]
+    },
+    {
+      "country": "Brésil",
+      "capitale_city": "Brasilia",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Chili",
+      "capitale_city": "Santiago",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Colombie",
+      "capitale_city": "Bogota",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Equateur",
+      "capitale_city": "Quito",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Iles Falkland",
+      "capitale_city": "Stanley",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Guyane Française",
+      "capitale_city": "Cayenne",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Guyana",
+      "capitale_city": "Georgetown",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Paraguay",
+      "capitale_city": "Asuncion",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Pérou",
+      "capitale_city": "Lima",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Surinam",
+      "capitale_city": "Paramaribo",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Uruguay",
+      "capitale_city": "Montevideo",
+      "capitale_trap": [],
+      "country_trap": []
+    },
+    {
+      "country": "Vénézuela",
+      "capitale_city": "Caracas",
+      "capitale_trap": [],
+      "country_trap": []
+    }
+  ]
+}
