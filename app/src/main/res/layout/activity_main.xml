@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:padding="20dp"
-        android:text="Bienvenue! Quel est ton pseudo?"
+        android:text="@string/wellcome"
         android:textAppearance="@android:style/TextAppearance.DialogWindowTitle" />
 
     <EditText
@@ -22,7 +22,49 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        android:hint="Saisissez votre pseudo" />
+        android:hint="@string/entry_alias" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <CheckBox android:id="@+id/activity_main_zone_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zone_wordl"
+        android:onClick="onCheckboxContinentClicked"/>
+
+    <CheckBox android:id="@+id/activity_main_zone_afrique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zone_afrique"
+        android:onClick="onCheckboxContinentClicked"/>
+
+    <CheckBox android:id="@+id/activity_main_zone_amerique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zone_amerique"
+        android:onClick="onCheckboxContinentClicked"/>
+
+    <CheckBox android:id="@+id/activity_main_zone_asie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zone_asie"
+        android:onClick="onCheckboxContinentClicked"/>
+
+    <CheckBox android:id="@+id/activity_main_zone_europe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zone_europe"
+        android:onClick="onCheckboxContinentClicked"/>
+
+    <CheckBox android:id="@+id/activity_main_zone_oceanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zone_oceanie"
+        android:onClick="onCheckboxContinentClicked"/>
 
     <RadioGroup
         android:id="@+id/activity_main_level_radio_group"
@@ -38,21 +80,21 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Facile" />
+            android:text="@string/level_easy" />
 
         <RadioButton
             android:id="@+id/activity_main_medium_level_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Moyen" />
+            android:text="@string/level_medium" />
 
         <RadioButton
             android:id="@+id/activity_main_hight_level_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Expert" />
+            android:text="@string/level_hard" />
     </RadioGroup>
 
     <TextView
@@ -60,7 +102,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="3 niveaux sont disponible\n   Facile: 5 erreurs possibles\n   Moyen: 3 erreurs possibles\n   Expert: 1 erreur possible" />
+        android:text="@string/level_details" />
 
     <RadioGroup
         android:id="@+id/activity_main_find_radio_group"
@@ -76,21 +118,21 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="Capitales" />
+            android:text="@string/search_capital" />
 
         <RadioButton
             android:id="@+id/activity_main_country_find_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Pays" />
+            android:text="@string/search_country" />
 
         <!--<RadioButton-->
             <!--android:id="@+id/activity_main_mix_find_radio_button"-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
             <!--android:layout_weight="1"-->
-            <!--android:text="Capitales et Pays" />-->
+            <!--android:text="@string/search_both" />-->
     </RadioGroup>
 
     <Button
@@ -100,6 +142,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:padding="30dp"
-        android:text="C'est parti" />
+        android:text="@string/action_begining" />
 
 </LinearLayout>

@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">TopQuizz</string>
+    <string name="wellcome">Bienvenue! Quel est ton pseudo?</string>
+    <string name="entry_alias">Saisissez votre pseudo</string>
+    <string name="level_easy">Facile</string>
+    <string name="level_medium">Moyen</string>
+    <string name="level_hard">Expert</string>
+    <string name="level_details">3 niveaux sont disponible\n   Facile: 5 erreurs possibles\n   Moyen: 3 erreurs possibles\n   Expert: 1 erreur possible</string>
+    <string name="search_capital">Capitales</string>
+    <string name="search_country">Pays</string>
+    <string name="search_both">Capitales et Pays</string>
+    <string name="action_begining">C\'est parti</string>
+    <string name="zone_wordl">Le monde</string>
+    <string name="zone_afrique">Afrique</string>
+    <string name="zone_amerique">Amériques</string>
+    <string name="zone_asie">Asie</string>
+    <string name="zone_europe">Europe</string>
+    <string name="zone_oceanie">Océanie</string>
 </resources>

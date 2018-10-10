@@ -31,17 +31,32 @@ public class MainActivity extends AppCompatActivity {
     final String TXT_MEDIUM_LEVEL   = "Moyen";
     final String TXT_HIGHT_LEVEL    = "Expert";
 
-    final String TXT_CAPITALE_FIND  = "Capitales";
-    final String TXT_COUNTRY_FIND   = "Pays";
-    final String TXT_MIX_FIND       = "Capitales et Pays";
-
     final int EASY_LEVEL     = 5;
     final int MEDIUM_LEVEL   = 3;
     final int HIGHT_LEVEL    = 1;
 
+    final String TXT_CAPITALE_FIND  = "Capitales";
+    final String TXT_COUNTRY_FIND   = "Pays";
+    final String TXT_MIX_FIND       = "Capitales et Pays";
+
     final int FIND_CAPITAL   = 1;
     final int FIND_COUNTRY   = 2;
     final int FIND_MIX       = 3;
+
+    final String TXT_CONTINENT_WORLD    = "Tous";
+    final String TXT_CONTINENT_AFRIQUE  = "Afrique";
+    final String TXT_CONTINENT_AMERIQUE = "Amérique";
+    final String TXT_CONTINENT_ASIE     = "Asie";
+    final String TXT_CONTINENT_EUROPE   = "Europe";
+    final String TXT_CONTINENT_OCEANIE  = "Océanie";
+
+    final int CONTINENT_WORLD    = 0;
+    final int CONTINENT_AFRIQUE  = 1;
+    final int CONTINENT_AMERIQUE = 2;
+    final int CONTINENT_ASIE     = 3;
+    final int CONTINENT_EUROPE   = 4;
+    final int CONTINENT_OCEANIE  = 5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
