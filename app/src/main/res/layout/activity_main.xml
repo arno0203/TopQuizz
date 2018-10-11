@@ -1,147 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.dollois.topquizz.controller.MainActivity">
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/activity_main_greeting_txt"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:padding="20dp"
-        android:text="@string/wellcome"
-        android:textAppearance="@android:style/TextAppearance.DialogWindowTitle" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        tools:context="com.dollois.topquizz.controller.MainActivity">
 
-    <EditText
-        android:id="@+id/activity_main_pseudo_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        android:hint="@string/entry_alias" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="362dp"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        <TextView
+            android:id="@+id/activity_main_greeting_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/wellcome"
+            android:textAppearance="@android:style/TextAppearance.DialogWindowTitle" />
 
-    <CheckBox android:id="@+id/activity_main_zone_word"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/zone_wordl"
-        android:onClick="onCheckboxContinentClicked"/>
+        <EditText
+            android:id="@+id/activity_main_pseudo_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/entry_alias" />
 
-    <CheckBox android:id="@+id/activity_main_zone_afrique"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/zone_afrique"
-        android:onClick="onCheckboxContinentClicked"/>
-
-    <CheckBox android:id="@+id/activity_main_zone_amerique"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/zone_amerique"
-        android:onClick="onCheckboxContinentClicked"/>
-
-    <CheckBox android:id="@+id/activity_main_zone_asie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/zone_asie"
-        android:onClick="onCheckboxContinentClicked"/>
-
-    <CheckBox android:id="@+id/activity_main_zone_europe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/zone_europe"
-        android:onClick="onCheckboxContinentClicked"/>
-
-    <CheckBox android:id="@+id/activity_main_zone_oceanie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/zone_oceanie"
-        android:onClick="onCheckboxContinentClicked"/>
-
-    <RadioGroup
-        android:id="@+id/activity_main_level_radio_group"
-        android:layout_width="match_parent"
-        android:layout_height="47dp"
-        android:layout_marginBottom="-10dp"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/activity_main_easy_level_radio_button"
+        <CheckBox
+            android:id="@+id/activity_main_zone_world"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:checked="true"
-            android:text="@string/level_easy" />
+            android:onClick="onCheckboxContinentClicked"
+            android:text="@string/zone_wordl" />
 
-        <RadioButton
-            android:id="@+id/activity_main_medium_level_radio_button"
+        <CheckBox
+            android:id="@+id/activity_main_zone_afrique"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/level_medium" />
+            android:onClick="onCheckboxContinentClicked"
+            android:text="@string/zone_afrique" />
 
-        <RadioButton
-            android:id="@+id/activity_main_hight_level_radio_button"
+        <CheckBox
+            android:id="@+id/activity_main_zone_amerique"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/level_hard" />
-    </RadioGroup>
+            android:onClick="onCheckboxContinentClicked"
+            android:text="@string/zone_amerique" />
 
-    <TextView
-        android:id="@+id/activity_main_explain_level_txt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="@string/level_details" />
-
-    <RadioGroup
-        android:id="@+id/activity_main_find_radio_group"
-        android:layout_width="match_parent"
-        android:layout_height="47dp"
-        android:layout_marginBottom="-10dp"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/activity_main_capital_find_radio_button"
+        <CheckBox
+            android:id="@+id/activity_main_zone_asie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:checked="true"
-            android:text="@string/search_capital" />
+            android:onClick="onCheckboxContinentClicked"
+            android:text="@string/zone_asie" />
 
-        <RadioButton
-            android:id="@+id/activity_main_country_find_radio_button"
+        <CheckBox
+            android:id="@+id/activity_main_zone_europe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/search_country" />
+            android:onClick="onCheckboxContinentClicked"
+            android:text="@string/zone_europe" />
 
-        <!--<RadioButton-->
+        <CheckBox
+            android:id="@+id/activity_main_zone_oceanie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxContinentClicked"
+            android:text="@string/zone_oceanie" />
+
+        <RadioGroup
+            android:id="@+id/activity_main_level_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/activity_main_easy_level_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/level_easy" />
+
+            <RadioButton
+                android:id="@+id/activity_main_medium_level_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/level_medium" />
+
+            <RadioButton
+                android:id="@+id/activity_main_hight_level_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/level_hard" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/activity_main_explain_level_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/level_details" />
+
+        <RadioGroup
+            android:id="@+id/activity_main_find_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/activity_main_capital_find_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/search_capital" />
+
+            <RadioButton
+                android:id="@+id/activity_main_country_find_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/search_country" />
+
+            <!--<RadioButton-->
             <!--android:id="@+id/activity_main_mix_find_radio_button"-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
             <!--android:layout_weight="1"-->
             <!--android:text="@string/search_both" />-->
-    </RadioGroup>
+        </RadioGroup>
 
-    <Button
-        android:id="@+id/activity_main_play_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:padding="30dp"
-        android:text="@string/action_begining" />
+        <Button
+            android:id="@+id/activity_main_play_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="30dp"
+            android:text="@string/action_begining" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

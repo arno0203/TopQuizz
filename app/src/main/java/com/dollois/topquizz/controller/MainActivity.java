@@ -7,6 +7,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -26,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton mLevelRadioButton;
     private RadioButton mFindRadioButton;
     private User mUser;
+    private CheckBox mAfriqueCheckbox;
+    private CheckBox mAmeriqueCheckbox;
+    private CheckBox mAsieCheckbox;
+    private CheckBox mEuropeCheckbox;
+    private CheckBox mOceanieCheckbox;
+    private CheckBox mWorldCheckbox;
+
 
     final String TXT_EASY_LEVEL     = "Facile";
     final String TXT_MEDIUM_LEVEL   = "Moyen";
@@ -63,14 +71,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mGreetingText = (TextView) findViewById(R.id.activity_main_greeting_txt);
-        mPseudoInput = (EditText) findViewById(R.id.activity_main_pseudo_input);
-        mPlayButton = (Button) findViewById(R.id.activity_main_play_btn);
-        mLevelGroup = (RadioGroup) findViewById(R.id.activity_main_level_radio_group);
-        mFindGroup = (RadioGroup) findViewById(R.id.activity_main_find_radio_group);
+        mGreetingText   = (TextView) findViewById(R.id.activity_main_greeting_txt);
+        mPseudoInput    = (EditText) findViewById(R.id.activity_main_pseudo_input);
+        mPlayButton     = (Button) findViewById(R.id.activity_main_play_btn);
+        mLevelGroup     = (RadioGroup) findViewById(R.id.activity_main_level_radio_group);
+        mFindGroup      = (RadioGroup) findViewById(R.id.activity_main_find_radio_group);
+
+        mAfriqueCheckbox   = (CheckBox) findViewById(R.id.activity_main_zone_afrique);
+        mAmeriqueCheckbox  = (CheckBox) findViewById(R.id.activity_main_zone_amerique);
+        mAsieCheckbox      = (CheckBox) findViewById(R.id.activity_main_zone_asie);
+        mEuropeCheckbox    = (CheckBox) findViewById(R.id.activity_main_zone_europe);
+        mOceanieCheckbox   = (CheckBox) findViewById(R.id.activity_main_zone_oceanie);
+        mWorldCheckbox     = (CheckBox) findViewById(R.id.activity_main_zone_world);
 
         mPlayButton.setEnabled(false);
-
 
         mPseudoInput.addTextChangedListener(new TextWatcher() {
             @Override
@@ -129,5 +143,44 @@ public class MainActivity extends AppCompatActivity {
             return this.FIND_COUNTRY;
 
         return this.FIND_MIX;
+    }
+
+    public void onCheckboxContinentClicked(View view) {
+        boolean checked = ((CheckBox) view).isChecked();
+
+        // Check which checkbox was clicked
+        switch(view.getId()) {
+            case R.id.activity_main_zone_afrique:
+                if (checked)
+                // Put some meat on the sandwich
+                break;
+            case R.id.activity_main_zone_amerique:
+                if (checked)
+                // Cheese me
+                break;
+            case R.id.activity_main_zone_asie:
+                if (checked)
+                    // Cheese me
+                    break;
+            case R.id.activity_main_zone_europe:
+                if (checked)
+                    // Cheese me
+                    break;
+            case R.id.activity_main_zone_oceanie:
+                if (checked)
+                    // Cheese me
+                    break;
+            case R.id.activity_main_zone_world:
+                onAllCheckbox(checked);
+            break;
+        }
+    }
+
+    private void onAllCheckbox(Boolean state){
+        mAfriqueCheckbox.setChecked(state);
+        mAmeriqueCheckbox.setChecked(state);
+        mAsieCheckbox.setChecked(state);
+        mEuropeCheckbox.setChecked(state);
+        mOceanieCheckbox.setChecked(state);
     }
 }
