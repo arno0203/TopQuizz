@@ -16,6 +16,8 @@ import android.widget.TextView;
 import com.dollois.topquizz.R;
 import com.dollois.topquizz.model.User;
 
+import java.util.ArrayList;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,30 +35,16 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox mEuropeCheckbox;
     private CheckBox mOceanieCheckbox;
     private CheckBox mWorldCheckbox;
+    private ArrayList mZoneSelected;
 
-
-    final String TXT_EASY_LEVEL     = "Facile";
-    final String TXT_MEDIUM_LEVEL   = "Moyen";
-    final String TXT_HIGHT_LEVEL    = "Expert";
 
     final int EASY_LEVEL     = 5;
     final int MEDIUM_LEVEL   = 3;
     final int HIGHT_LEVEL    = 1;
 
-    final String TXT_CAPITALE_FIND  = "Capitales";
-    final String TXT_COUNTRY_FIND   = "Pays";
-    final String TXT_MIX_FIND       = "Capitales et Pays";
-
     final int FIND_CAPITAL   = 1;
     final int FIND_COUNTRY   = 2;
     final int FIND_MIX       = 3;
-
-    final String TXT_CONTINENT_WORLD    = "Tous";
-    final String TXT_CONTINENT_AFRIQUE  = "Afrique";
-    final String TXT_CONTINENT_AMERIQUE = "Amérique";
-    final String TXT_CONTINENT_ASIE     = "Asie";
-    final String TXT_CONTINENT_EUROPE   = "Europe";
-    final String TXT_CONTINENT_OCEANIE  = "Océanie";
 
     final int CONTINENT_WORLD    = 0;
     final int CONTINENT_AFRIQUE  = 1;
@@ -70,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mZoneSelected = new ArrayList();
 
         mGreetingText   = (TextView) findViewById(R.id.activity_main_greeting_txt);
         mPseudoInput    = (EditText) findViewById(R.id.activity_main_pseudo_input);
@@ -114,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 gameActivity.putExtra("user", mUser);
                 gameActivity.putExtra("level", level);
                 gameActivity.putExtra("find", find);
+                gameActivity.putStringArrayListExtra("zone_selected", mZoneSelected);
                 startActivity(gameActivity);
             }
         });
@@ -123,10 +114,10 @@ public class MainActivity extends AppCompatActivity {
         int selectedId = mLevelGroup.getCheckedRadioButtonId();
         mLevelRadioButton = (RadioButton) findViewById(selectedId);
 
-        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_MEDIUM_LEVEL) )
+        if(mLevelRadioButton.getText().toString().equalsIgnoreCase( getString(R.string.level_medium) ) )
             return this.MEDIUM_LEVEL;
 
-        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(this.TXT_HIGHT_LEVEL) )
+        if(mLevelRadioButton.getText().toString().equalsIgnoreCase(getString(R.string.level_hard) ) )
             return this.HIGHT_LEVEL;
 
         return this.EASY_LEVEL;
@@ -136,10 +127,10 @@ public class MainActivity extends AppCompatActivity {
         int selectedId = mFindGroup.getCheckedRadioButtonId();
         mFindRadioButton = (RadioButton) findViewById(selectedId);
 
-        if(mFindRadioButton.getText().toString().equalsIgnoreCase(this.TXT_CAPITALE_FIND) )
+        if(mFindRadioButton.getText().toString().equalsIgnoreCase( getString(R.string.search_capital) ) )
             return this.FIND_CAPITAL;
 
-        if(mFindRadioButton.getText().toString().equalsIgnoreCase(this.TXT_COUNTRY_FIND) )
+        if(mFindRadioButton.getText().toString().equalsIgnoreCase( getString(R.string.search_country) ) )
             return this.FIND_COUNTRY;
 
         return this.FIND_MIX;
@@ -151,27 +142,27 @@ public class MainActivity extends AppCompatActivity {
         // Check which checkbox was clicked
         switch(view.getId()) {
             case R.id.activity_main_zone_afrique:
-                if (checked)
-                // Put some meat on the sandwich
+                saveCheckboxChecked(checked, getString(R.string.zone_afrique));
                 break;
             case R.id.activity_main_zone_amerique:
-                if (checked)
-                // Cheese me
+                saveCheckboxChecked(checked, getString(R.string.zone_amerique));
                 break;
             case R.id.activity_main_zone_asie:
-                if (checked)
-                    // Cheese me
-                    break;
+                saveCheckboxChecked(checked, getString(R.string.zone_asie));
+                break;
             case R.id.activity_main_zone_europe:
-                if (checked)
-                    // Cheese me
-                    break;
+                saveCheckboxChecked(checked, getString(R.string.zone_europe));
+                break;
             case R.id.activity_main_zone_oceanie:
-                if (checked)
-                    // Cheese me
-                    break;
+                saveCheckboxChecked(checked, getString(R.string.zone_oceanie));
+                break;
             case R.id.activity_main_zone_world:
                 onAllCheckbox(checked);
+                saveCheckboxChecked(checked, getString(R.string.zone_afrique));
+                saveCheckboxChecked(checked, getString(R.string.zone_amerique));
+                saveCheckboxChecked(checked, getString(R.string.zone_asie));
+                saveCheckboxChecked(checked, getString(R.string.zone_europe));
+                saveCheckboxChecked(checked, getString(R.string.zone_oceanie));
             break;
         }
     }
@@ -182,5 +173,14 @@ public class MainActivity extends AppCompatActivity {
         mAsieCheckbox.setChecked(state);
         mEuropeCheckbox.setChecked(state);
         mOceanieCheckbox.setChecked(state);
+    }
+
+    private void saveCheckboxChecked(boolean checked, String value){
+        if(checked){
+            mZoneSelected.add(value);
+        }else{
+            mZoneSelected.remove(value);
+        }
+
     }
 }

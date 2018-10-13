@@ -19,6 +19,7 @@ import com.dollois.topquizz.model.QuestionBank;
 import com.dollois.topquizz.model.User;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class GameActivity extends AppCompatActivity implements View.OnClickListener {
@@ -33,6 +34,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     private QuestionBank mlistQuestion;
     private int mLevel;
     private int mFind;
+    private ArrayList mZoneSelected;
 
     private int mGoodAnswer = 0;
     private int mBadAnswer = 0;
@@ -47,6 +49,8 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = getIntent();
         mLevel = intent.getIntExtra("level", 5);
         mFind = intent.getIntExtra("find", 1);
+        ArrayList<String> mZoneSelected = intent.getStringArrayListExtra("zone_selected");
+
 
         mQuestionText = (TextView) findViewById(R.id.activity_game_question_text);
         mGoodAnswerText = (TextView) findViewById(R.id.activity_game_good_answer_text);
