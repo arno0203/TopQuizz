@@ -8,6 +8,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
@@ -26,10 +27,13 @@ public class QuestionBank {
     final int FIND_COUNTRY   = 2;
     final int FIND_MIX       = 3;
 
-    public QuestionBank(InputStream inputStreamJson, int lookingFor) {
+    public QuestionBank(InputStream inputStreamJson, int lookingFor, ArrayList<String> listContinent) {
+
         JSONObject obj = this.buildJsonObject(inputStreamJson);
         Map<String, String> setting = new HashMap<>();
         try {
+
+
             if(lookingFor == this.FIND_CAPITAL){
                 setting.put("typeList", "capitale_responses");
                 setting.put("question", "country");
@@ -42,8 +46,9 @@ public class QuestionBank {
                 setting.put("trap", "country_trap");
             }
 
-            JSONArray m_jQuestion = obj.getJSONArray("list");
-            mListAllReponse = Tools.jsonArrayToStringArray(obj.getJSONArray(setting.get("typeList")));
+            JSONArray m_jQuestion = obj.getJSONArray("list_word");
+//            mListAllReponse = Tools.jsonArrayToStringArray(obj.getJSONArray(setting.get("typeList")));
+            mListAllReponse = this.buildListAllReponse(m_jQuestion, listContinent);
 
 //            System.out.println("Nbr de réponses totales");
             int nbrQuestion = m_jQuestion.length();
@@ -68,6 +73,26 @@ public class QuestionBank {
 
     public Question[] getQuestionList() {
         return mQuestionList;
+    }
+
+    public String[] buildListAllReponse(JSONArray allListJson, ArrayList<String> listContinent){
+        int nbrNode = allListJson.length();
+        ArrayList<String> mReponse = new ArrayList<String>();
+        String continent = "";
+        for (int i = 0; i < nbrNode; i++) {
+            try {
+                JSONObject currObject = allListJson.getJSONObject(i);
+                continent = currObject.getString("continent");
+
+                if (listContinent.contains(continent)) {
+                    mReponse.add(currObject.getString("answer"));
+                }
+            }catch (JSONException e){
+                e.printStackTrace();
+            }
+        }
+
+        return mReponse.toArray(new String[mReponse.size()]);
     }
 
     public void setQuestionList(Question[] questionList) {

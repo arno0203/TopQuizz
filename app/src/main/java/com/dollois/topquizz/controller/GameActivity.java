@@ -73,7 +73,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         mAnswer4Button.setOnClickListener(this);
 
         try {
-            mlistQuestion = new QuestionBank(this.getAssets().open("liste.json"), mFind);
+            mlistQuestion = new QuestionBank(this.getAssets().open("list_word.json"), mFind, mZoneSelected);
             this.displayQuestion(mlistQuestion, mGoodAnswer + mBadAnswer);
 
         } catch (IOException ex) {
