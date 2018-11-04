@@ -35,20 +35,20 @@ public class QuestionBank {
 
 
             if(lookingFor == this.FIND_CAPITAL){
-                setting.put("typeList", "capitale_responses");
+                setting.put("typeList", "capital_responses");
                 setting.put("question", "country");
-                setting.put("answer", "capitale_city");
-                setting.put("trap", "capitale_trap");
+                setting.put("answer", "capital_city");
+                setting.put("trap", "capital_trap");
             }else if(lookingFor == this.FIND_COUNTRY){
                 setting.put("typeList", "country_responses");
-                setting.put("question", "capitale_city");
+                setting.put("question", "capital_city");
                 setting.put("answer", "country");
                 setting.put("trap", "country_trap");
             }
 
-            JSONArray m_jQuestion = obj.getJSONArray("list_word");
+            JSONArray m_jQuestion = obj.getJSONArray("list");
 //            mListAllReponse = Tools.jsonArrayToStringArray(obj.getJSONArray(setting.get("typeList")));
-            mListAllReponse = this.buildListAllReponse(m_jQuestion, listContinent);
+            mListAllReponse = this.buildListAllReponse(m_jQuestion, listContinent, setting);
 
 //            System.out.println("Nbr de réponses totales");
             int nbrQuestion = m_jQuestion.length();
@@ -56,8 +56,7 @@ public class QuestionBank {
 
             for (int i=0; i < nbrQuestion; i++) {
                 Question currentQuestion = new Question();
-                currentQuestion.loadFromJson(m_jQuestion.getJSONObject(i), mListAllReponse, setting
-                );
+                currentQuestion.loadFromJson(m_jQuestion.getJSONObject(i), mListAllReponse, setting );
 
                 listQuestionTemp[i] = currentQuestion;
             }
@@ -75,7 +74,7 @@ public class QuestionBank {
         return mQuestionList;
     }
 
-    public String[] buildListAllReponse(JSONArray allListJson, ArrayList<String> listContinent){
+    public String[] buildListAllReponse(JSONArray allListJson, ArrayList<String> listContinent, Map<String, String> setting){
         int nbrNode = allListJson.length();
         ArrayList<String> mReponse = new ArrayList<String>();
         String continent = "";
@@ -85,7 +84,7 @@ public class QuestionBank {
                 continent = currObject.getString("continent");
 
                 if (listContinent.contains(continent)) {
-                    mReponse.add(currObject.getString("answer"));
+                    mReponse.add(currObject.getString( setting.get("answer") ) );
                 }
             }catch (JSONException e){
                 e.printStackTrace();

@@ -1,1491 +1,1507 @@
-[
-  {
-    "continent": "Afrique",
-    "country": "Afrique du sud",
-    "capitale_city": "Prétoria",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Algérie",
-    "capitale_city": "Alger",
-    "capitale_trap": [
-      "Moscou"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Angola",
-    "capitale_city": "Luanda",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Bénin",
-    "capitale_city": "Porto Novo",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Botswana",
-    "capitale_city": "PGaborone",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Burkina Faso",
-    "capitale_city": "Ouagadougou",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Burundi",
-    "capitale_city": "Bujumbura",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Cameroun",
-    "capitale_city": "Yaoundé",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Cap-Vert",
-    "capitale_city": "Praïa",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Comoros",
-    "capitale_city": "Moroni",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Côte d'Ivoire",
-    "capitale_city": "Abidjan",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Djibouti",
-    "capitale_city": "Djibouti",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Egypte",
-    "capitale_city": "Le Caire",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Erythrée",
-    "capitale_city": "Asmera",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Ethiopie",
-    "capitale_city": "Addis-Abéba",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Gabon",
-    "capitale_city": "Libreville",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Gambie",
-    "capitale_city": "Banjul",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Ghana",
-    "capitale_city": "Accra",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Guinée",
-    "capitale_city": "Conakry",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Guinée Equatoriale",
-    "capitale_city": "Malabo",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Guinée Bissau",
-    "capitale_city": "Bissao",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Kénya",
-    "capitale_city": "Nairobi",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Lésotho",
-    "capitale_city": "Maseru",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Libéria",
-    "capitale_city": "Monrovia",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Libye",
-    "capitale_city": "Tripoli",
-    "capitale_trap": ["Beyrouth"],
-    "country_trap": ["Liban"]
-  },
-  {
-    "continent": "Afrique",
-    "country": "Madagascar",
-    "capitale_city": "Antananarivo",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Malawi",
-    "capitale_city": "Lilongwé",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Mali",
-    "capitale_city": "Bamako",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Maroc",
-    "capitale_city": "Rabat",
-    "capitale_trap": [
-      "Casablanca"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Maurice",
-    "capitale_city": "Port-Louis",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Mauritanie",
-    "capitale_city": "Nouakchott",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Mozambique",
-    "capitale_city": "Maputo",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Namibie",
-    "capitale_city": "Windhoek",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Niger",
-    "capitale_city": "Niamey",
-    "capitale_trap": [
-      "Lagos"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Nigéria",
-    "capitale_city": "Lagos",
-    "capitale_trap": [
-      "Niamey"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Ouganda",
-    "capitale_city": "Kampala",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "République Centrafricaine",
-    "capitale_city": "Bangui",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "République démocratique du Congo",
-    "capitale_city": "Kinshasa",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "République du Congo",
-    "capitale_city": "Brazzaville",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Rwanda",
-    "capitale_city": "Kigali",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Sao Tomé",
-    "capitale_city": "Sao Tomé",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Sénégal",
-    "capitale_city": "Dakar",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Seychelles",
-    "capitale_city": "Victoria",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Sierra Léone",
-    "capitale_city": "Freetown",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Somalie",
-    "capitale_city": "Mogadiscio",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Soudan",
-    "capitale_city": "Khartoum",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Swaziland",
-    "capitale_city": "Mbabane",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Tanzanie",
-    "capitale_city": "Dodoma",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Tchad",
-    "capitale_city": "N'Djamena",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Togo",
-    "capitale_city": "Lomé",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Tunisie",
-    "capitale_city": "Tunis",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Zambie",
-    "capitale_city": "Lusaka",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Afrique",
-    "country": "Zimbabwé",
-    "capitale_city": "Hararé",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Antigua et Barbuda",
-    "capitale_city": "Saint John’s",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Bahamas",
-    "capitale_city": "Nassau",
-    "capitale_trap": [],
-    "country_trap": [
-    	"Barbade"
-    ]
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Barbade",
-    "capitale_city": "Bridgetown",
-    "capitale_trap": [],
-    "country_trap": [
-		"Bahamas"
-    ]
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Bélize",
-    "capitale_city": "Belmopan",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Canada",
-    "capitale_city": "Ottawa",
-    "capitale_trap": [
-    	"Montréal"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Costa Rica",
-    "capitale_city": "San José",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Cuba",
-    "capitale_city": "La Havane",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Dominique",
-    "capitale_city": "Roseau",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Etats-Unis",
-    "capitale_city": "Washington",
-    "capitale_trap": [
-    	"New-York"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Grenade",
-    "capitale_city": "Saint-Georges",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Guatemala",
-    "capitale_city": "Guatemala",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Haïti",
-    "capitale_city": "Port-au-Prince",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Honduras",
-    "capitale_city": "Tegucigalpa",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Jamaïque",
-    "capitale_city": "Kingston",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Mexique",
-    "capitale_city": "Mexico",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Nicaragua",
-    "capitale_city": "Managua",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Panama",
-    "capitale_city": "Panamá",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "République Dominicaine",
-    "capitale_city": "Santo Domingo",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Saint-Christophe-et-Niévès",
-    "capitale_city": "Basseterre",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Sainte-Lucie",
-    "capitale_city": "Castries",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Salvador",
-    "capitale_city": "San Salvador",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Nord et Centrale",
-    "country": "Trinidad et Tobago",
-    "capitale_city": "Port-d’Espagne",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Argentine",
-    "capitale_city": "Buenos Aires",
-    "capitale_trap": [],
-    "country_trap": [
-      "Italie"
-    ]
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Argentine",
-    "capitale_city": "Buenos Aires",
-    "capitale_trap": [],
-    "country_trap": [
-      "Italie"
-    ]
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Bolivie",
-    "capital_city": "Sucre",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Brésil",
-    "capital_city": "Brasilia",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Chili",
-    "capital_city": "Santiago du Chili",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Colombie",
-    "capital_city": "Bogotá",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Equateur",
-    "capital_city": "Quito",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Guyana",
-    "capital_city": "Georgetown",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Guyana",
-    "capital_city": "Georgetown",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Paraguay",
-    "capital_city": "Asunción",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Pérou",
-    "capital_city": "Lima",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Surinam",
-    "capital_city": "Paramaribo",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Uruguay",
-    "capital_city": "Montevideo",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Amérique du Sud",
-    "country": "Venezuela",
-    "capital_city": "Caracas",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Afghanistan",
-    "capital_city": "Kaboul",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Arabie saoudite",
-    "capital_city": "Riyad",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Arménie",
-    "capital_city": "Erevan",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Azerbaïdjan",
-    "capital_city": "Bakou",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Bahreïn",
-    "capital_city": "Manama",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Bangladesh",
-    "capital_city": "Dacca",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Bhoutan",
-    "capital_city": "Thimphou",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Brunéi Darussalam",
-    "capital_city": "Bandar Seri Begawan",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Cambodge",
-    "capital_city": "Phnom Penh",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Chine",
-    "capital_city": "Pékin",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Corée du Nord",
-    "capital_city": "Pyongyang",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Corée du Sud",
-    "capital_city": "Séoul",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Emirats Arabes Unis",
-    "capital_city": "Abu Dhabi",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Géorgie",
-    "capital_city": "Tbilissi",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Hong Kong",
-    "capital_city": "Hong Kong",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Inde",
-    "capital_city": "New Delhi",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Indonésie",
-    "capital_city": "Jakarta",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Irak",
-    "capital_city": "Bagdad",
-    "capital_trap": [
-      "Téhéran"
-    ],
-    "country_trap": [
-      "Iran"
-    ]
-  },
-  {
-    "continent": "Asie",
-    "country": "Iran",
-    "capital_city": "Téhéran",
-    "capital_trap": [
-      "Bagdad"
-    ],
-    "country_trap": [
-      "Irak"
-    ]
-  },
-  {
-    "continent": "Asie",
-    "country": "Israël",
-    "capital_city": "Jérusalem",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Japon",
-    "capital_city": "Tokyo",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Jordanie",
-    "capital_city": "Amman",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Kazakhstan",
-    "capital_city": "Astana",
-    "capital_trap": [],
-    "country_trap": ["Kirghizistan"]
-  },
-  {
-    "continent": "Asie",
-    "country": "Kirghizistan",
-    "capital_city": "Bichkek",
-    "capital_trap": [],
-    "country_trap": ["Kazakhstan"]
-  },
-  {
-    "continent": "Asie",
-    "country": "Koweït",
-    "capital_city": "Koweït",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Laos",
-    "capital_city": "Vientiane",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Liban",
-    "capital_city": "Beyrouth",
-    "capital_trap": ["Tripoli"],
-    "country_trap": ["Libye"]
-  },
-  {
-    "continent": "Asie",
-    "country": "Malaisie",
-    "capital_city": "Kuala Lumpur",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Maldives",
-    "capital_city": "Malé",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Mongolie",
-    "capital_city": "Oulan-Bator",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Myanmar",
-    "capital_city": "Nay Pyi Taw",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Népal",
-    "capital_city": "Katmandou",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Oman",
-    "capital_city": "Mascate",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Ouzbékistan",
-    "capital_city": "Tachkent",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Pakistan",
-    "capital_city": "Islamabad",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Palestine",
-    "capital_city": "Jérusalem-Est / Ramallah",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Philippines",
-    "capital_city": "Manille",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Qatar",
-    "capital_city": "Doha",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Singapour",
-    "capital_city": "Singapour",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Sri Lanka",
-    "capital_city": "Sri Jayawardenapura Kotte",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Syrie",
-    "capital_city": "Damas",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Tadjikistan",
-    "capital_city": "Douchanbé",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Taïwan",
-    "capital_city": "Taipei",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Thaïlande",
-    "capital_city": "Bangkok",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Timor Oriental",
-    "capital_city": "Dili",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Turkménistan",
-    "capital_city": "Achgabat",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Turquie",
-    "capital_city": "Ankara",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Vietnam",
-    "capital_city": "Hanoï",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Asie",
-    "country": "Yémen",
-    "capital_city": "Sanaa",
-    "capital_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Allemagne",
-    "capitale_city": "Berlin",
-    "capitale_trap": [
-      "Munich"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Andorre",
-    "capital_city": "Andorre La Vella",
-    "capital_trap": [],
-    "country_trap": [
-      "Portugal"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Autriche",
-    "capitale_city": "Vienne",
-    "capitale_trap": [
-      "Salzbourg"
-    ],
-    "country_trap": [
-      "Suisse"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Belgique",
-    "capitale_city": "Bruxelles",
-    "capitale_trap": [
-      "Liège"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Biélorussie",
-    "capitale_city": "Minsk",
-    "capitale_trap": [
-      "Moscou"
-    ],
-    "country_trap": [
-      "Russie"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Bosnie-Herzégovine",
-    "capitale_city": "Sarajevo",
-    "capitale_trap": [
-      "Zagreb"
-    ],
-    "country_trap": [
-      "Croatie"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Bulgarie",
-    "capitale_city": "Sofia",
-    "capitale_trap": [
-      "Belgrade"
-    ],
-    "country_trap": [
-      "Hongrie"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Chypre",
-    "capitale_city": "Nicosie",
-    "capitale_trap": [],
-    "country_trap": [
-      "Grêce"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Croatie",
-    "capitale_city": "Zagreb",
-    "capitale_trap": [],
-    "country_trap": [
-      "Bosnie-Herzégovine"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Danemark",
-    "capitale_city": "Copenhage",
-    "capitale_trap": [
-      "Helsinki"
-    ],
-    "country_trap": [
-      "Suède"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Espagne",
-    "capitale_city": "Madrid",
-    "capitale_trap": [
-      "Barcelone"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Estonie",
-    "capitale_city": "Tallinn",
-    "capitale_trap": [],
-    "country_trap": [
-      "Hongrie"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Finlande",
-    "capitale_city": "Helsinki",
-    "capitale_trap": [
-      "Copenhage"
-    ],
-    "country_trap": [
-      "Lettonie"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "France",
-    "capitale_city": "Paris",
-    "capitale_trap": [
-      "Marseille"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Grèce",
-    "capitale_city": "Athènes",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Hongrie",
-    "capitale_city": "Budapest",
-    "capitale_trap": [
-      "Bucarest"
-    ],
-    "country_trap": [
-      "Roumanie"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Irlande",
-    "capitale_city": "Dublin",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Islande",
-    "capitale_city": "Reykjavik",
-    "capitale_trap": [],
-    "country_trap": [
-      "Groeland"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Italie",
-    "capitale_city": "Rome",
-    "capitale_trap": [
-      "Cologne",
-      "Milan"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Kosovo",
-    "capitale_city": "Pristina",
-    "capitale_trap": [
-      "Cologne",
-      "Milan"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Lettonie",
-    "capitale_city": "Riga",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Liechtenstein",
-    "capitale_city": "Vaduz",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Lituanie",
-    "capitale_city": "Vilnius",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Luxembourg",
-    "capitale_city": "Luxembourg",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Macédoine",
-    "capitale_city": "Skopje",
-    "capitale_trap": [
-      "Sofia"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Malte",
-    "capitale_city": "La Vallette",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Moldavie",
-    "capitale_city": "Chisinau",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Monaco",
-    "capitale_city": "Monaco",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Monténégro",
-    "capitale_city": "Podgorica",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Norvège",
-    "capitale_city": "Oslo",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Pays-Bas",
-    "capitale_city": "Amsterdam",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Pologne",
-    "capitale_city": "Varsovie",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Portugal",
-    "capitale_city": "Lisbonne",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "République Tchèque",
-    "capitale_city": "Prague",
-    "capitale_trap": [
-      "Sofia"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Roumanie",
-    "capitale_city": "Bucarest",
-    "capitale_trap": [
-      "Budapest"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Royaume-Uni",
-    "capitale_city": "Londres",
-    "capitale_trap": [
-      "Manchester"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Russie",
-    "capitale_city": "Moscou",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Saint-Marin",
-    "capitale_city": "Saint-Marin",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Serbie",
-    "capitale_city": "Belgrade",
-    "capitale_trap": [
-      "Ljubljana"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Slovaquie",
-    "capitale_city": "Bratislava",
-    "capitale_trap": [
-      "Ljubljana"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Slovénie",
-    "capitale_city": "Ljubljana",
-    "capitale_trap": [
-      "Bratislava"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Suède",
-    "capitale_city": "Stockholm",
-    "capitale_trap": [
-      "Helsinki",
-      "Olso"
-    ],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Suisse",
-    "capitale_city": "Berne",
-    "capitale_trap": [
-      "Genève"
-    ],
-    "country_trap": [
-      "Allemagne"
-    ]
-  },
-  {
-    "continent": "Europe",
-    "country": "Ukraine",
-    "capitale_city": "Kiev",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Europe",
-    "country": "Vatican",
-    "capitale_city": "Vatican",
-    "capitale_trap": [],
-    "country_trap": [
-      "Italie"
-    ]
-  },
-  {
-    "continent": "Océanie",
-    "country": "Australie",
-    "capitale_city": "Canberra",
-    "capitale_trap": ["Sydney"],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Fidji",
-    "capitale_city": "Suva",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Iles Cook",
-    "capitale_city": "Avarua",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Iles Marshall",
-    "capitale_city": "Majuro",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Iles Salomon",
-    "capitale_city": "Honiara",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Kiribati",
-    "capitale_city": "Tarawa-Sud",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Micronésie",
-    "capitale_city": "Palikir",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Nauru",
-    "capitale_city": "District de Yaren",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Nouvelle-Zélande",
-    "capitale_city": "Wellington",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Palaos",
-    "capitale_city": "Melekeok",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Papouasie-Nouvelle Guinée",
-    "capitale_city": "Port Moresby",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Samoa",
-    "capitale_city": "Apia",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Tonga",
-    "capitale_city": "Nuku’alofa",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Tuvalu",
-    "capitale_city": "Funafuti",
-    "capitale_trap": [],
-    "country_trap": []
-  },
-  {
-    "continent": "Océanie",
-    "country": "Vanuatu",
-    "capitale_city": "Port-Vila",
-    "capitale_trap": [],
-    "country_trap": []
-  }
-]
+{
+  "list": [
+    {
+      "continent": "Afrique",
+      "country": "Afrique du sud",
+      "capital_city": "Prétoria",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Algérie",
+      "capital_city": "Alger",
+      "capital_trap": [
+        "Moscou"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Angola",
+      "capital_city": "Luanda",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Bénin",
+      "capital_city": "Porto Novo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Botswana",
+      "capital_city": "PGaborone",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Burkina Faso",
+      "capital_city": "Ouagadougou",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Burundi",
+      "capital_city": "Bujumbura",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Cameroun",
+      "capital_city": "Yaoundé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Cap-Vert",
+      "capital_city": "Praïa",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Comoros",
+      "capital_city": "Moroni",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Côte d'Ivoire",
+      "capital_city": "Abidjan",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Djibouti",
+      "capital_city": "Djibouti",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Egypte",
+      "capital_city": "Le Caire",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Erythrée",
+      "capital_city": "Asmera",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Ethiopie",
+      "capital_city": "Addis-Abéba",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Gabon",
+      "capital_city": "Libreville",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Gambie",
+      "capital_city": "Banjul",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Ghana",
+      "capital_city": "Accra",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Guinée",
+      "capital_city": "Conakry",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Guinée Equatoriale",
+      "capital_city": "Malabo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Guinée Bissau",
+      "capital_city": "Bissao",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Kénya",
+      "capital_city": "Nairobi",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Lésotho",
+      "capital_city": "Maseru",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Libéria",
+      "capital_city": "Monrovia",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Libye",
+      "capital_city": "Tripoli",
+      "capital_trap": [
+        "Beyrouth"
+      ],
+      "country_trap": [
+        "Liban"
+      ]
+    },
+    {
+      "continent": "Afrique",
+      "country": "Madagascar",
+      "capital_city": "Antananarivo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Malawi",
+      "capital_city": "Lilongwé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Mali",
+      "capital_city": "Bamako",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Maroc",
+      "capital_city": "Rabat",
+      "capital_trap": [
+        "Casablanca"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Maurice",
+      "capital_city": "Port-Louis",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Mauritanie",
+      "capital_city": "Nouakchott",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Mozambique",
+      "capital_city": "Maputo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Namibie",
+      "capital_city": "Windhoek",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Niger",
+      "capital_city": "Niamey",
+      "capital_trap": [
+        "Lagos"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Nigéria",
+      "capital_city": "Lagos",
+      "capital_trap": [
+        "Niamey"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Ouganda",
+      "capital_city": "Kampala",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "République Centrafricaine",
+      "capital_city": "Bangui",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "République démocratique du Congo",
+      "capital_city": "Kinshasa",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "République du Congo",
+      "capital_city": "Brazzaville",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Rwanda",
+      "capital_city": "Kigali",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Sao Tomé",
+      "capital_city": "Sao Tomé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Sénégal",
+      "capital_city": "Dakar",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Seychelles",
+      "capital_city": "Victoria",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Sierra Léone",
+      "capital_city": "Freetown",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Somalie",
+      "capital_city": "Mogadiscio",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Soudan",
+      "capital_city": "Khartoum",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Swaziland",
+      "capital_city": "Mbabane",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Tanzanie",
+      "capital_city": "Dodoma",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Tchad",
+      "capital_city": "N'Djamena",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Togo",
+      "capital_city": "Lomé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Tunisie",
+      "capital_city": "Tunis",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Zambie",
+      "capital_city": "Lusaka",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Afrique",
+      "country": "Zimbabwé",
+      "capital_city": "Hararé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Antigua et Barbuda",
+      "capital_city": "Saint John’s",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Bahamas",
+      "capital_city": "Nassau",
+      "capital_trap": [],
+      "country_trap": [
+        "Barbade"
+      ]
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Barbade",
+      "capital_city": "Bridgetown",
+      "capital_trap": [],
+      "country_trap": [
+        "Bahamas"
+      ]
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Bélize",
+      "capital_city": "Belmopan",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Canada",
+      "capital_city": "Ottawa",
+      "capital_trap": [
+        "Montréal"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Costa Rica",
+      "capital_city": "San José",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Cuba",
+      "capital_city": "La Havane",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Dominique",
+      "capital_city": "Roseau",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Etats-Unis",
+      "capital_city": "Washington",
+      "capital_trap": [
+        "New-York"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Grenade",
+      "capital_city": "Saint-Georges",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Guatemala",
+      "capital_city": "Guatemala",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Haïti",
+      "capital_city": "Port-au-Prince",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Honduras",
+      "capital_city": "Tegucigalpa",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Jamaïque",
+      "capital_city": "Kingston",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Mexique",
+      "capital_city": "Mexico",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Nicaragua",
+      "capital_city": "Managua",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Panama",
+      "capital_city": "Panamá",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "République Dominicaine",
+      "capital_city": "Santo Domingo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Saint-Christophe-et-Niévès",
+      "capital_city": "Basseterre",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Sainte-Lucie",
+      "capital_city": "Castries",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Salvador",
+      "capital_city": "San Salvador",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Nord et Centrale",
+      "country": "Trinidad et Tobago",
+      "capital_city": "Port-d’Espagne",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Argentine",
+      "capital_city": "Buenos Aires",
+      "capital_trap": [],
+      "country_trap": [
+        "Italie"
+      ]
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Argentine",
+      "capital_city": "Buenos Aires",
+      "capital_trap": [],
+      "country_trap": [
+        "Italie"
+      ]
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Bolivie",
+      "capital_city": "Sucre",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Brésil",
+      "capital_city": "Brasilia",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Chili",
+      "capital_city": "Santiago du Chili",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Colombie",
+      "capital_city": "Bogotá",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Equateur",
+      "capital_city": "Quito",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Guyana",
+      "capital_city": "Georgetown",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Guyana",
+      "capital_city": "Georgetown",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Paraguay",
+      "capital_city": "Asunción",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Pérou",
+      "capital_city": "Lima",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Surinam",
+      "capital_city": "Paramaribo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Uruguay",
+      "capital_city": "Montevideo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Amérique du Sud",
+      "country": "Venezuela",
+      "capital_city": "Caracas",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Afghanistan",
+      "capital_city": "Kaboul",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Arabie saoudite",
+      "capital_city": "Riyad",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Arménie",
+      "capital_city": "Erevan",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Azerbaïdjan",
+      "capital_city": "Bakou",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Bahreïn",
+      "capital_city": "Manama",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Bangladesh",
+      "capital_city": "Dacca",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Bhoutan",
+      "capital_city": "Thimphou",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Brunéi Darussalam",
+      "capital_city": "Bandar Seri Begawan",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Cambodge",
+      "capital_city": "Phnom Penh",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Chine",
+      "capital_city": "Pékin",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Corée du Nord",
+      "capital_city": "Pyongyang",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Corée du Sud",
+      "capital_city": "Séoul",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Emirats Arabes Unis",
+      "capital_city": "Abu Dhabi",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Géorgie",
+      "capital_city": "Tbilissi",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Hong Kong",
+      "capital_city": "Hong Kong",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Inde",
+      "capital_city": "New Delhi",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Indonésie",
+      "capital_city": "Jakarta",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Irak",
+      "capital_city": "Bagdad",
+      "capital_trap": [
+        "Téhéran"
+      ],
+      "country_trap": [
+        "Iran"
+      ]
+    },
+    {
+      "continent": "Asie",
+      "country": "Iran",
+      "capital_city": "Téhéran",
+      "capital_trap": [
+        "Bagdad"
+      ],
+      "country_trap": [
+        "Irak"
+      ]
+    },
+    {
+      "continent": "Asie",
+      "country": "Israël",
+      "capital_city": "Jérusalem",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Japon",
+      "capital_city": "Tokyo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Jordanie",
+      "capital_city": "Amman",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Kazakhstan",
+      "capital_city": "Astana",
+      "capital_trap": [],
+      "country_trap": [
+        "Kirghizistan"
+      ]
+    },
+    {
+      "continent": "Asie",
+      "country": "Kirghizistan",
+      "capital_city": "Bichkek",
+      "capital_trap": [],
+      "country_trap": [
+        "Kazakhstan"
+      ]
+    },
+    {
+      "continent": "Asie",
+      "country": "Koweït",
+      "capital_city": "Koweït",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Laos",
+      "capital_city": "Vientiane",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Liban",
+      "capital_city": "Beyrouth",
+      "capital_trap": [
+        "Tripoli"
+      ],
+      "country_trap": [
+        "Libye"
+      ]
+    },
+    {
+      "continent": "Asie",
+      "country": "Malaisie",
+      "capital_city": "Kuala Lumpur",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Maldives",
+      "capital_city": "Malé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Mongolie",
+      "capital_city": "Oulan-Bator",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Myanmar",
+      "capital_city": "Nay Pyi Taw",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Népal",
+      "capital_city": "Katmandou",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Oman",
+      "capital_city": "Mascate",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Ouzbékistan",
+      "capital_city": "Tachkent",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Pakistan",
+      "capital_city": "Islamabad",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Palestine",
+      "capital_city": "Jérusalem-Est / Ramallah",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Philippines",
+      "capital_city": "Manille",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Qatar",
+      "capital_city": "Doha",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Singapour",
+      "capital_city": "Singapour",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Sri Lanka",
+      "capital_city": "Sri Jayawardenapura Kotte",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Syrie",
+      "capital_city": "Damas",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Tadjikistan",
+      "capital_city": "Douchanbé",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Taïwan",
+      "capital_city": "Taipei",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Thaïlande",
+      "capital_city": "Bangkok",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Timor Oriental",
+      "capital_city": "Dili",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Turkménistan",
+      "capital_city": "Achgabat",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Turquie",
+      "capital_city": "Ankara",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Vietnam",
+      "capital_city": "Hanoï",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Asie",
+      "country": "Yémen",
+      "capital_city": "Sanaa",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Allemagne",
+      "capital_city": "Berlin",
+      "capital_trap": [
+        "Munich"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Andorre",
+      "capital_city": "Andorre La Vella",
+      "capital_trap": [],
+      "country_trap": [
+        "Portugal"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Autriche",
+      "capital_city": "Vienne",
+      "capital_trap": [
+        "Salzbourg"
+      ],
+      "country_trap": [
+        "Suisse"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Belgique",
+      "capital_city": "Bruxelles",
+      "capital_trap": [
+        "Liège"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Biélorussie",
+      "capital_city": "Minsk",
+      "capital_trap": [
+        "Moscou"
+      ],
+      "country_trap": [
+        "Russie"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Bosnie-Herzégovine",
+      "capital_city": "Sarajevo",
+      "capital_trap": [
+        "Zagreb"
+      ],
+      "country_trap": [
+        "Croatie"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Bulgarie",
+      "capital_city": "Sofia",
+      "capital_trap": [
+        "Belgrade"
+      ],
+      "country_trap": [
+        "Hongrie"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Chypre",
+      "capital_city": "Nicosie",
+      "capital_trap": [],
+      "country_trap": [
+        "Grêce"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Croatie",
+      "capital_city": "Zagreb",
+      "capital_trap": [],
+      "country_trap": [
+        "Bosnie-Herzégovine"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Danemark",
+      "capital_city": "Copenhage",
+      "capital_trap": [
+        "Helsinki"
+      ],
+      "country_trap": [
+        "Suède"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Espagne",
+      "capital_city": "Madrid",
+      "capital_trap": [
+        "Barcelone"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Estonie",
+      "capital_city": "Tallinn",
+      "capital_trap": [],
+      "country_trap": [
+        "Hongrie"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Finlande",
+      "capital_city": "Helsinki",
+      "capital_trap": [
+        "Copenhage"
+      ],
+      "country_trap": [
+        "Lettonie"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "France",
+      "capital_city": "Paris",
+      "capital_trap": [
+        "Marseille"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Grèce",
+      "capital_city": "Athènes",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Hongrie",
+      "capital_city": "Budapest",
+      "capital_trap": [
+        "Bucarest"
+      ],
+      "country_trap": [
+        "Roumanie"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Irlande",
+      "capital_city": "Dublin",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Islande",
+      "capital_city": "Reykjavik",
+      "capital_trap": [],
+      "country_trap": [
+        "Groeland"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Italie",
+      "capital_city": "Rome",
+      "capital_trap": [
+        "Cologne",
+        "Milan"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Kosovo",
+      "capital_city": "Pristina",
+      "capital_trap": [
+        "Cologne",
+        "Milan"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Lettonie",
+      "capital_city": "Riga",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Liechtenstein",
+      "capital_city": "Vaduz",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Lituanie",
+      "capital_city": "Vilnius",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Luxembourg",
+      "capital_city": "Luxembourg",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Macédoine",
+      "capital_city": "Skopje",
+      "capital_trap": [
+        "Sofia"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Malte",
+      "capital_city": "La Vallette",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Moldavie",
+      "capital_city": "Chisinau",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Monaco",
+      "capital_city": "Monaco",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Monténégro",
+      "capital_city": "Podgorica",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Norvège",
+      "capital_city": "Oslo",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Pays-Bas",
+      "capital_city": "Amsterdam",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Pologne",
+      "capital_city": "Varsovie",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Portugal",
+      "capital_city": "Lisbonne",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "République Tchèque",
+      "capital_city": "Prague",
+      "capital_trap": [
+        "Sofia"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Roumanie",
+      "capital_city": "Bucarest",
+      "capital_trap": [
+        "Budapest"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Royaume-Uni",
+      "capital_city": "Londres",
+      "capital_trap": [
+        "Manchester"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Russie",
+      "capital_city": "Moscou",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Saint-Marin",
+      "capital_city": "Saint-Marin",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Serbie",
+      "capital_city": "Belgrade",
+      "capital_trap": [
+        "Ljubljana"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Slovaquie",
+      "capital_city": "Bratislava",
+      "capital_trap": [
+        "Ljubljana"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Slovénie",
+      "capital_city": "Ljubljana",
+      "capital_trap": [
+        "Bratislava"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Suède",
+      "capital_city": "Stockholm",
+      "capital_trap": [
+        "Helsinki",
+        "Olso"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Suisse",
+      "capital_city": "Berne",
+      "capital_trap": [
+        "Genève"
+      ],
+      "country_trap": [
+        "Allemagne"
+      ]
+    },
+    {
+      "continent": "Europe",
+      "country": "Ukraine",
+      "capital_city": "Kiev",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Europe",
+      "country": "Vatican",
+      "capital_city": "Vatican",
+      "capital_trap": [],
+      "country_trap": [
+        "Italie"
+      ]
+    },
+    {
+      "continent": "Océanie",
+      "country": "Australie",
+      "capital_city": "Canberra",
+      "capital_trap": [
+        "Sydney"
+      ],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Fidji",
+      "capital_city": "Suva",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Iles Cook",
+      "capital_city": "Avarua",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Iles Marshall",
+      "capital_city": "Majuro",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Iles Salomon",
+      "capital_city": "Honiara",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Kiribati",
+      "capital_city": "Tarawa-Sud",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Micronésie",
+      "capital_city": "Palikir",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Nauru",
+      "capital_city": "District de Yaren",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Nouvelle-Zélande",
+      "capital_city": "Wellington",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Palaos",
+      "capital_city": "Melekeok",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Papouasie-Nouvelle Guinée",
+      "capital_city": "Port Moresby",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Samoa",
+      "capital_city": "Apia",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Tonga",
+      "capital_city": "Nuku’alofa",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Tuvalu",
+      "capital_city": "Funafuti",
+      "capital_trap": [],
+      "country_trap": []
+    },
+    {
+      "continent": "Océanie",
+      "country": "Vanuatu",
+      "capital_city": "Port-Vila",
+      "capital_trap": [],
+      "country_trap": []
+    }
+  ]
+}
