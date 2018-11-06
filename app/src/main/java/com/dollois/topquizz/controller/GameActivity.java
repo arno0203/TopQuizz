@@ -103,7 +103,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             mAnswer4Button.setText(currentQuestion.getResponsesList()[3]);
             mAnswer4Button.setTag(currentQuestion.getResponsesList()[3]);
 
-            this.changeColor(Color.WHITE);
+            this.setColor( Color.WHITE, getResources().getColor(R.color.colorPrimaryDark) );
 
             mCurrentAnswer = currentQuestion.getAnswer();
         } else {
@@ -160,24 +160,35 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     public void setColorGoodAnswer(String goodAnswer) {
         if (mAnswer1Button.getText().toString() == goodAnswer) {
-            mAnswer1Button.setBackgroundColor(getResources().getColor(R.color.colorGoodAnswer));
+            mAnswer1Button.setTextColor(getResources().getColor(R.color.colorGoodAnswer));
         }
         if (mAnswer2Button.getText().toString() == goodAnswer) {
-            mAnswer2Button.setBackgroundColor(getResources().getColor(R.color.colorGoodAnswer));
+            mAnswer2Button.setTextColor(getResources().getColor(R.color.colorGoodAnswer));
         }
         if (mAnswer3Button.getText().toString() == goodAnswer) {
-            mAnswer3Button.setBackgroundColor(getResources().getColor(R.color.colorGoodAnswer));
+            mAnswer3Button.setTextColor(getResources().getColor(R.color.colorGoodAnswer));
         }
         if (mAnswer4Button.getText().toString() == goodAnswer) {
-            mAnswer4Button.setBackgroundColor(getResources().getColor(R.color.colorGoodAnswer));
+            mAnswer4Button.setTextColor(getResources().getColor(R.color.colorGoodAnswer));
         }
     }
 
-    public void changeColor(int color) {
-        mAnswer1Button.setBackgroundColor(color);
-        mAnswer2Button.setBackgroundColor(color);
-        mAnswer3Button.setBackgroundColor(color);
-        mAnswer4Button.setBackgroundColor(color);
+    public void changeColor(int textColor) {
+        mAnswer1Button.setTextColor(textColor);
+        mAnswer2Button.setTextColor(textColor);
+        mAnswer3Button.setTextColor(textColor);
+        mAnswer4Button.setTextColor(textColor);
+    }
+
+    public void setColor(int backgroundColor, int textColor) {
+        mAnswer1Button.setBackgroundColor(backgroundColor);
+        mAnswer2Button.setBackgroundColor(backgroundColor);
+        mAnswer3Button.setBackgroundColor(backgroundColor);
+        mAnswer4Button.setBackgroundColor(backgroundColor);
+        mAnswer1Button.setTextColor(textColor);
+        mAnswer2Button.setTextColor(textColor);
+        mAnswer3Button.setTextColor(textColor);
+        mAnswer4Button.setTextColor(textColor);
     }
 
     private Runnable nextQuestion = new Runnable() {
