@@ -46,10 +46,11 @@ public class QuestionBank {
                 setting.put("trap", "country_trap");
             }
 
-            JSONArray m_jQuestion = obj.getJSONArray("list");
-            mListAllReponse = this.buildListAllReponse(m_jQuestion, listContinent, setting);
+            JSONArray m_jList = obj.getJSONArray("list");
+            JSONArray m_jQuestion = this.buildListQuestion(m_jList, listContinent, setting);
+            mListAllReponse = this.buildListAllReponse(m_jList, listContinent, setting);
 
-            int nbrQuestion = m_jQuestion.length();
+            int nbrQuestion = mListAllReponse.length;
             Question[] listQuestionTemp = new Question[nbrQuestion];
 
             for (int i=0; i < nbrQuestion; i++) {
@@ -70,6 +71,26 @@ public class QuestionBank {
 
     public Question[] getQuestionList() {
         return mQuestionList;
+    }
+
+    public JSONArray buildListQuestion(JSONArray listJson, ArrayList<String> listContinent, Map<String, String> setting){
+        int nbrNode = listJson.length();
+        JSONArray mQuestion = new JSONArray();
+        String continent = "";
+        for (int i = 0; i < nbrNode; i++) {
+            try {
+                JSONObject currObject = listJson.getJSONObject(i);
+                continent = currObject.getString("continent");
+
+                if (listContinent.contains(continent)) {
+                    mQuestion.put(currObject);
+                }
+            }catch (JSONException e){
+                e.printStackTrace();
+            }
+        }
+
+        return mQuestion;
     }
 
     public String[] buildListAllReponse(JSONArray allListJson, ArrayList<String> listContinent, Map<String, String> setting){
