@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:scrollbars="vertical"
-        tools:context="com.dollois.topquizz.controller.MainActivity">
+        tools:context="com.troisado.topquizz.controller.MainActivity">
 
 
         <TextView

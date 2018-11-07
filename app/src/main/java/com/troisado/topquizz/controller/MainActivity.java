@@ -1,4 +1,4 @@
-package com.dollois.topquizz.controller;
+package com.troisado.topquizz.controller;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +13,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.dollois.topquizz.R;
-import com.dollois.topquizz.model.User;
+import com.troisado.topquizz.R;
+import com.troisado.topquizz.model.User;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.dollois.topquizz;
+package com.troisado.topquizz;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.dollois.topquizz.model;
+package com.troisado.topquizz.model;
 
 import org.json.JSONArray;
 

@@ -1,4 +1,4 @@
-package com.dollois.topquizz.model;
+package com.troisado.topquizz.model;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -91,7 +91,7 @@ public class Question {
             tempResponseList[0] = this.getAnswer();
             tempResponseList = Tools.mergeArrayString(tempResponseList, Tools.jsonArrayToStringArray( jsonQuestion.getJSONArray(setting.get("trap").toString()) ) );
 
-            for(int i= nbrTrap+1; i < this.nbrChoice; i++){
+            for(int i=  nbrTrap+1; i < this.nbrChoice; i++){
                 tempResponseList[i] = this.getRandomAnswer(tempResponseList, allResponses);
             }
 

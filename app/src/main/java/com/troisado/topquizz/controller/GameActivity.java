@@ -1,4 +1,4 @@
-package com.dollois.topquizz.controller;
+package com.troisado.topquizz.controller;
 
 
 import android.content.DialogInterface;
@@ -13,10 +13,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.dollois.topquizz.R;
-import com.dollois.topquizz.model.Question;
-import com.dollois.topquizz.model.QuestionBank;
-import com.dollois.topquizz.model.User;
+import com.troisado.topquizz.R;
+import com.troisado.topquizz.model.Question;
+import com.troisado.topquizz.model.QuestionBank;
+import com.troisado.topquizz.model.User;
 
 import java.io.IOException;
 import java.util.ArrayList;

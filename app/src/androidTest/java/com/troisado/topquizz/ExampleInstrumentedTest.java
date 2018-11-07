@@ -1,4 +1,4 @@
-package com.dollois.topquizz;
+package com.troisado.topquizz;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.dollois.topquizz", appContext.getPackageName());
+        assertEquals("com.troisado.topquizz", appContext.getPackageName());
     }
 }
