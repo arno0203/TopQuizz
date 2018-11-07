@@ -47,10 +47,8 @@ public class QuestionBank {
             }
 
             JSONArray m_jQuestion = obj.getJSONArray("list");
-//            mListAllReponse = Tools.jsonArrayToStringArray(obj.getJSONArray(setting.get("typeList")));
             mListAllReponse = this.buildListAllReponse(m_jQuestion, listContinent, setting);
 
-//            System.out.println("Nbr de réponses totales");
             int nbrQuestion = m_jQuestion.length();
             Question[] listQuestionTemp = new Question[nbrQuestion];
 
